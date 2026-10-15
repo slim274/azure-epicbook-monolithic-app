@@ -1,0 +1,10 @@
+flowchart LR
+   U["Visitor / Browser"] -->|"HTTP :80"| IP["Azure public IP"]
+   subgraph VN["Azure virtual network — 10.0.0.0/16"]
+      subgraph PS["VM subnet — 10.0.1.0/24"]
+         VM["Ubuntu 22.04 · epickbookvm<br/>Nginx + Node.js/Express + PM2"]
+      end
+      SUB["Additional subnet — 10.0.2.0/24<br/>intended for MySQL in report"]
+   end
+   IP --> VM
+   VM -->|"MySQL TCP :3306"| DB["Azure Database for MySQL<br/>Flexible Server · bookstore"]
