@@ -33,7 +33,7 @@ The **written report** describes private VNet integration for MySQL, but the MyS
 
 ## Work completed 
 
-| Task| Work recorded in the assignment |
+| Task| Documentation |
 |---|---|
 | **1** | Created an Azure VNet (`10.0.0.0/16`), VM subnet (`10.0.1.0/24`), intended MySQL subnet (`10.0.2.0/24`), NSG rules, and a VM public IP. |
 | **2** | Provisioned Ubuntu 22.04 VM `epickbookvm`; installed Node.js, npm, Nginx, Git, and MySQL client; configured PM2 and database access. |
@@ -42,7 +42,7 @@ The **written report** describes private VNet integration for MySQL, but the MyS
 | **5** | Opened the app at its VM public IP, viewed books, and reported testing cart and orders. Only the website/book listing is shown in the supplied screenshot. |
 | **6** | Published a LinkedIn assignment update. This is a submission record, not runtime infrastructure proof. |
 
-## Screenshots from the original Word document
+## Screenshots
 
 | Azure VNet | Subnets |
 |:---:|:---:|
