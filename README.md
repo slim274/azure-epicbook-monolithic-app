@@ -1,6 +1,6 @@
 # Azure EpicBook — Monolithic Application Deployment
 
-**DevOps Micro Internship (DMI), Cohort 2 | Week 8 · Assignment 3 (report pages 23–33)**
+**DevOps Micro Internship (DMI), Cohort 2**
 
 **Stack:** Microsoft Azure · Ubuntu 22.04 VM · Node.js/Express · Nginx · PM2 · Azure Database for MySQL Flexible Server
 
@@ -31,7 +31,7 @@ flowchart LR
 
 The **written report** describes private VNet integration for MySQL, but the MySQL **screenshot** shows **“Public access (allowed IP addresses)”** and **“Virtual network: Not configured.”** For accuracy, the diagram does *not* place the database inside the VNet; private MySQL access is **not verified by the screenshots**. See [evidence limitations](docs/EVIDENCE_LIMITATIONS.md).
 
-## Work completed — as reported in Assignment 3
+## Work completed 
 
 | Task| Work recorded in the assignment |
 |---|---|
