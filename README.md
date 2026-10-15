@@ -33,18 +33,16 @@ The **written report** describes private VNet integration for MySQL, but the MyS
 
 ## Work completed — as reported in Assignment 3
 
-| Task / pages | Work recorded in the assignment |
+| Task| Work recorded in the assignment |
 |---|---|
-| **1 — pp. 23–25** | Created an Azure VNet (`10.0.0.0/16`), VM subnet (`10.0.1.0/24`), intended MySQL subnet (`10.0.2.0/24`), NSG rules, and a VM public IP. |
-| **2 — pp. 25–26** | Provisioned Ubuntu 22.04 VM `epickbookvm`; installed Node.js, npm, Nginx, Git, and MySQL client; configured PM2 and database access. |
-| **3 — pp. 27–28** | Forked/cloned EpicBook, installed dependencies, configured Nginx and Node.js/Express, and restarted the service with PM2. The report calls the frontend “React”; no separate React build is established by the screenshots. |
-| **4 — pp. 29–30** | Created an Azure MySQL Flexible Server and `bookstore` database, configured `epicbookadmin`, and reported importing SQL data. |
-| **5 — pp. 31–32** | Opened the app at its VM public IP, viewed books, and reported testing cart and orders. Only the website/book listing is shown in the supplied screenshot. |
-| **6 — p. 33** | Published a LinkedIn assignment update. This is a submission record, not runtime infrastructure proof. |
+| **1** | Created an Azure VNet (`10.0.0.0/16`), VM subnet (`10.0.1.0/24`), intended MySQL subnet (`10.0.2.0/24`), NSG rules, and a VM public IP. |
+| **2** | Provisioned Ubuntu 22.04 VM `epickbookvm`; installed Node.js, npm, Nginx, Git, and MySQL client; configured PM2 and database access. |
+| **3** | Forked/cloned EpicBook, installed dependencies, configured Nginx and Node.js/Express, and restarted the service with PM2. The report calls the frontend “React”; no separate React build is established by the screenshots. |
+| **4** | Created an Azure MySQL Flexible Server and `bookstore` database, configured `epicbookadmin`, and reported importing SQL data. |
+| **5** | Opened the app at its VM public IP, viewed books, and reported testing cart and orders. Only the website/book listing is shown in the supplied screenshot. |
+| **6** | Published a LinkedIn assignment update. This is a submission record, not runtime infrastructure proof. |
 
 ## Screenshots from the original Word document
-
-All nine images are **original embedded Word screenshots** (source images approximately **1958 × 951 pixels**, with header/identifier trimming where necessary), **not** blurry PDF page crops. Click to view the larger image.
 
 | Azure VNet | Subnets |
 |:---:|:---:|
